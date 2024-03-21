@@ -1,0 +1,48 @@
+
+header {
+    background-color: #007BFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(235, 229, 229);
+    padding: 20px;
+}
+
+p {
+    color: #000000;
+    background-color: rgb(174, 241, 241);
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 5px;
+}
+
+li {
+    border: 2px solid #8a78f0;
+    margin: 20px;
+    padding: 5px;
+}
+
+a {
+    background-color: rgb(243, 207, 207);
+    font-size: 120%;
+    font-weight: 200;
+    font-family: monospace;
+    color: #493e3e;
+    margin: 10px;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .introduction, .skills, .contact {
+        margin-left: auto;
+        margin-left: auto;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .introduction, .skills, .contact {
+        margin-left: auto;
+        margin-left: auto;
+        padding: 10px;
+    }
+}
